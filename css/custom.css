@@ -27,8 +27,14 @@ body, h1, h2, h3, h4, h5, h6 {
 .callout {
     margin: 0;
  }
- .callout.large {
-    padding: 6rem 3rem;
+
+.callout.large {
+    padding: 3rem 0rem;
+}
+@media screen and (min-width: 40em) {
+	 .callout.large {
+	    padding: 6rem 3rem;
+	}
 }
 
 .large-icon {
