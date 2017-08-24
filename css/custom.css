@@ -1,0 +1,103 @@
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+}
+
+.top-bar {
+	background: #2199e8;
+}
+.top-bar ul {
+    background: none;
+    color: white;
+}
+.top-bar ul a {
+	color: whitesmoke;
+}
+.top-bar ul a:hover {
+	color: black;
+}
+
+.callout.large.even {
+	background: grey;
+	color: white;
+}
+.callout.large.odd {
+	background: #221f1f;
+	color: skyblue;
+}
+.callout {
+    margin: 0;
+ }
+ .callout.large {
+    padding: 6rem 3rem;
+}
+
+.large-icon {
+	font-size: 4rem;
+	padding: 0 1rem;
+}
+
+.banner {
+	height: 600px;
+}
+.banner h1 {
+	font-size: 3rem;
+}
+@media screen and (min-width: 40em) {
+	.banner h1 {
+	    font-size: 4rem;
+	}
+}
+@media screen and (min-width: 60em) {
+	.banner h1 {
+	    font-size: 5rem;
+	}
+}
+
+.banner .heading {
+	margin-top: 100px;
+}
+
+.banner,
+.footer {
+	background: gold;
+	color: black;
+}
+
+.footer {
+	padding: 1rem 0;
+}
+.footer ul.menu {
+    
+}
+.footer ul.menu a {
+	color: grey;
+}
+.footer ul.menu a:hover {
+	color: black;
+}
+
+.copyright {
+	font-size: 12px;
+    color: darkslategrey;
+}
+
+.bbq-bg {
+	background-image: url('../images/truck.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.dark-screen {
+	background: rgba(0,0,0,0.5);
+	color: white;
+}
+
+p.lead {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.callout h1,
+.banner h1 {
+	font-family: 'Permanent Marker', cursive;
+}
