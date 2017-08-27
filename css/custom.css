@@ -17,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .callout.large.even {
-	background: grey;
+	background: #5D737E;
 	color: white;
 }
 .callout.large.odd {
@@ -34,6 +34,9 @@ body, h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 40em) {
 	 .callout.large {
 	    padding: 6rem 3rem;
+	}
+	.callout.large.dark-screen {
+	    padding: 12rem 3rem;
 	}
 }
 
@@ -65,8 +68,18 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .banner,
 .footer {
-	background: gold;
+	background: #fed431;
 	color: black;
+}
+
+.banner .lead {
+	font-family: 'Permanent Marker', cursive;
+    color: #221f1f;
+}
+.vertical-logo {
+	font-family: 'Permanent Marker', cursive;
+	line-height: 0.9;
+	letter-spacing: 5px;
 }
 
 .footer {
@@ -95,7 +108,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 .dark-screen {
 	background: rgba(0,0,0,0.5);
-	color: white;
+	color: skyblue;
 }
 
 p.lead {
