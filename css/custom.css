@@ -109,10 +109,11 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .bbq-bg {
-	background-image: url('../images/truck.jpg');
+	background: #221f1f;
+	/*background-image: url('../images/truck.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: cover;*/
 }
 .dark-screen {
 	background: rgba(0,0,0,0.5);
