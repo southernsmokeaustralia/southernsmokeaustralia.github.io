@@ -57,6 +57,12 @@ body, h1, h2, h3, h4, h5, h6 {
 	.banner h1 {
 	    font-size: 5rem;
 	}
+	.callout.large.dark-screen h1 {
+		font-size: 4rem;
+	}
+	.callout.large.dark-screen p.lead {
+		font-size: 150%;
+	}
 }
 
 @media screen and (min-width: 40em) {
